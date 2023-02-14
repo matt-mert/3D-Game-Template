@@ -334,7 +334,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75583334}
-  m_LocalRotation: {x: 0.44577315, y: 0.07172968, z: -0.03586484, w: 0.89154637}
+  m_LocalRotation: {x: 0.44577315, y: 0.07172965, z: -0.035864826, w: 0.89154637}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -355,7 +355,6 @@ GameObject:
   - component: {fileID: 247434716}
   - component: {fileID: 247434715}
   - component: {fileID: 247434714}
-  - component: {fileID: 247434719}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -441,22 +440,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &247434719
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 247434713}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &358237255
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,7 +1093,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049615432}
-  m_LocalRotation: {x: 0.4130936, y: 0.0729851, z: -0.033235583, w: 0.9071507}
+  m_LocalRotation: {x: 0.4130936, y: 0.07298511, z: -0.03323558, w: 0.9071507}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2060,6 +2043,7 @@ GameObject:
   - component: {fileID: 919132149212688154}
   - component: {fileID: 919132149212688156}
   - component: {fileID: 919132149212688155}
+  - component: {fileID: 919132149212688157}
   m_Layer: 0
   m_Name: BigBody
   m_TagString: Untagged
@@ -2128,6 +2112,18 @@ CapsuleCollider:
   m_Height: 3.4
   m_Direction: 1
   m_Center: {x: 0, y: 1.7, z: 0}
+--- !u!114 &919132149212688157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149212688152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3e0341dfeae054f99db9cc21261af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1193340829835674227
 GameObject:
   m_ObjectHideFlags: 0
