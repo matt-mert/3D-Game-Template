@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    [SerializeField]
+    private float playerSpeed = 100.0f;
+
     private Rigidbody playerRb;
 
     private void Start()
@@ -9,8 +12,8 @@ public class Movement : MonoBehaviour
         playerRb = GetComponent<Rigidbody>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        playerRb.velocity = Vector3.forward;
+        playerRb.velocity = Vector3.forward * playerSpeed * Time.fixedDeltaTime;
     }
 }
