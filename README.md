@@ -1,2 +1,2 @@
 # Basic3DGame
-Basic 2D game made with Unity Engine.
+Basic 3D game made with Unity Engine.
